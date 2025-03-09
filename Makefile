@@ -1,6 +1,6 @@
 CXX = g++
-CXXFLAGS = -std=c++20 -Wall -Wextra -g -I/opt/homebrew/opt/boost/include
-LDFLAGS = -pthread -L/opt/homebrew/opt/boost/lib -lboost_system
+CXXFLAGS = -std=c++20 -Wall -Wextra -g
+LDFLAGS = -pthread
 LDLIBS = -lboost_system -lboost_thread
 
 # Source files
